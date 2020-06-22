@@ -37,7 +37,7 @@ public class ProjectileManager : MonoBehaviour
     }
 
 
-    IEnumerator Active()
+    IEnumerator ActiveTime()
     {
         yield return new WaitForSeconds(maxActiveTime);
 
